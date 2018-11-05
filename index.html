@@ -3,20 +3,24 @@
 <head>
     <title>Trivia</title>
     <script src = "script.js"></script>
-    
+    <link rel="stylesheet" href="style.css">    
     
     </head>
 <body>
     <h2 id='city'></h2>
  
-<h3>Question</h3>
+<h1>Let's Play Trivia!</h1>
+<h2>Score: 0</h2>
+<hr>
 <div id='question'></div>
-<div id='answer1'></div>
-<div id='answer2'></div>    
-<div id='answer3'></div>
-<div id='answer4'></div>
+    <hr>
+<button onclick='AnswerQuestion("A")'><div id='answer1'></div></button>
+<button onclick='AnswerQuestion("B")'><div id='answer2'></div></button>
+<br><br>
+<button onclick='AnswerQuestion("C")'><div id='answer3'></div></button>
+<button onclick='AnswerQuestion("D")'><div id='answer4'></div></button>
     </body>
-
-
+<br><br>
+<div id = 'incorrect'></div>
 
 </html>
