@@ -31,7 +31,7 @@ function AnswerQuestion(buttonLetter) {
     if(buttonLetter=="A") {
         //console.log("selected A");
         if(document.getElementById('answer1').innerHTML==correctAnswer) {
-            answeredCorrectly();
+            answeredCorrectly(); 
             
         } else {
             incorrectLabel.innerHTML="A is Incorrect.";
